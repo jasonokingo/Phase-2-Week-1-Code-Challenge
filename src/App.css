@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.Nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.transaction-form {
+  margin-bottom: 20px;
+  display: flex; 
+  justify-content: center;
+  gap: 10px;
+}
+
+.transaction-table {
+  margin: 0 auto;
+  max-width: 100000px;
+}
+
+table {
+  text-align: left;
+  font-size: 2.0rem;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+table th {
+  background-color: rgb(23, 100, 125);
+  color: black;
+  
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+button {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px;
+  width: 150px;
+}
+
+button:hover {
+  background-color:white;
+  color: black;
+}
+
+select {
+  padding: 10px; 
+  padding-right: 8px;
+}
+.search-bar input[type="text"] {
+  width: 1360px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-bar button {
+  width: 100px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+input[type="text"] {
+  width: 100px;
+}
+input[type="number"] {
+  width: 100px;
+}
+input[type="date"] {
+  width: 100px;
+}
